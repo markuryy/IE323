@@ -1,5 +1,7 @@
-# Measuring the Obvious:
+# Measuring the Obvious
 ## A Human Factors Engineering Analysis of Kiosk Accessibility
+
+**Mark Ogra**, Aaron Elrington-Edwards, Shaaz Rizvi
 
 ### Introduction (3min)
 
