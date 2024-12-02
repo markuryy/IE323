@@ -1,0 +1,5 @@
+allowLocalFiles: true
+theme: gaia
+themeSet: themes
+html: true
+size: 16:9

@@ -1,0 +1,12 @@
+{
+  "name": "kiosk-presentation",
+  "type": "module",
+  "scripts": {
+    "dev": "marp -s .",
+    "build": "marp presentation.md -o dist/index.html",
+    "export": "marp presentation.md --pdf --allow-local-files"
+  },
+  "dependencies": {
+    "@marp-team/marp-cli": "^3.4.0"
+  }
+}
