@@ -354,7 +354,7 @@ Current implementation specifications:
 ---
 ### References
 <style scoped>
-section { font-size: 2.1em; }
+section { font-size: 1.6em; }
 </style>
 
 1. Department of Justice. (2010). *2010 ADA Standards for Accessible Design*. §308.2.1-309.4.
