@@ -403,18 +403,21 @@ Current implementation specifications:
 ---
 ### References
 <style scoped>
-section { font-size: 1.6em; }
+section { font-size: 1.4em; }
 </style>
 
-1. Department of Justice. (2010). *2010 ADA Standards for Accessible Design*. §308.2.1-309.4.
+1. U.S. Department of Justice. (2010). *2010 ADA standards for accessible design*. Retrieved from https://www.ada.gov
 
-2. Fitts, P. M. (1954). The information capacity of the human motor system in controlling the amplitude of movement. *Journal of Experimental Psychology*, 47(6), 381-391.
+2. Fitts, P. M. (1954). The information capacity of the human motor system in controlling the amplitude of movement. *Journal of Experimental Psychology*, 47(6), 381–391.
 
-3. Norman, D. A. (2013). *The design of everyday things*. Basic Books. pp. 123-125.
 
-4. u/tamay-idk. (2023). *Specs of a McDonald's kiosk in more detail* [Online forum post]. Reddit. Hardware specifications independently verified through system inspection.
+3. Norman, D. A. (2013). *The design of everyday things*. Basic Books.
 
-5. Swanson, J., & Calvillo-Gámez, E. H. (2020). Evaluation of touch screen kiosks for enhanced accessibility in public spaces. *International Journal of Human-Computer Studies*, 143, 102501.
+4. u/tamay-idk. (2023, January 24). Specs of a McDonald's kiosk in more detail [Online forum post]. Reddit. https://www.reddit.com/r/PBSOD/comments/10kc86g/specs_of_a_mcdonalds_kiosk_in_more_detail_youre/
+    | :warning: &nbsp; The specifications shared in the Reddit post were independently verified through system inspection.|
+    |--|
+
+5. Kim, C., Lee, J., & Bae, I. (2023). Comparative analysis of usability and accessibility of kiosks for people with disabilities. *Applied Sciences, 13*(5), 3058. https://doi.org/10.3390/app13053058
 
 ---
 
