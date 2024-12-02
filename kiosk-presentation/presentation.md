@@ -80,7 +80,7 @@ By: <span style="color:lightblue"><a href="https://markury.dev" style="text-deco
 <div style="text-align: left;">
 
 ### [markuryy.github.io/IE323](https://markuryy.github.io/IE323/)
-- View slides in real-time
+- View slides on your own device
 - Access all code and resources
 - Available on GitHub
 
@@ -102,34 +102,6 @@ By: <span style="color:lightblue"><a href="https://markury.dev" style="text-deco
 
 ---
 
-### Mathematical Validation
-
-#### Fitts' Law Application
-$$
-ID = log_2(\frac{2D}{W})
-$$
-
-where:
-- D = effective distance (cm)
-- W = target width (cm)
-
-![bg right:40% w:90%](images/significant_barriers.png)
-
----
-
-#### Kiosk Configuration Analysis
-
-$$
-D_{effective} = \sqrt{172^2 + reach^2} * \cos(\theta)
-$$
-
-**Comparative Results:**
-- Standing (50cm reach): ID = 8.48 bits
-- Seated (70cm reach): ID = 8.54 bits
-- *Additional cognitive load from non-optimal viewing angle*
-
----
-
 #### Human Factors Foundation (cont.)
 
 2. **Cognitive Load Theory**
@@ -144,7 +116,7 @@ $$
 
 ---
 
-#### Problem Space Overview
+### Problem Space Overview
 ![height:12cm](images/mindmap.png)
 *Interconnected barriers require systematic analysis*
 
@@ -225,6 +197,34 @@ $$
 - Natural inclusion of mobility device users
 - Age range: 18-65+
 - Multiple accessibility needs represented
+
+---
+
+### Mathematical Validation
+
+#### Fitts' Law Application
+$$
+ID = log_2(\frac{2D}{W})
+$$
+
+where:
+- D = effective distance (cm)
+- W = target width (cm)
+
+![bg right:40% w:90%](images/significant_barriers.png)
+
+---
+
+#### Kiosk Configuration Analysis
+
+$$
+D_{effective} = \sqrt{172^2 + reach^2} * \cos(\theta)
+$$
+
+**Comparative Results:**
+- Standing (50cm reach): ID = 8.48 bits
+- Seated (70cm reach): ID = 8.54 bits
+- *Additional cognitive load from non-optimal viewing angle*
 
 ---
 
@@ -418,14 +418,14 @@ section { font-size: 1.6em; }
 
 ---
 
-# Questions? :thinking:
+# Questions?
 
 <div class="columns">
 <div>
 
 #### Some Starters
 - "What inspired you to focus on kiosks?"
-- "How did businesses respond to your findings?"
+- "How did the businesses respond?"
 - "Did you encounter any unexpected results?"
 
 </div>
@@ -434,9 +434,8 @@ section { font-size: 1.6em; }
 #### Going Deeper
 - "Could this apply to other interfaces?"
 - "What's the most cost-effective fix?"
-- "How do weather conditions affect usage?"
+- *Feel free to ask anything else!* 
 
 </div>
 </div>
 
-*Feel free to ask anything else!* :raised_hands:
