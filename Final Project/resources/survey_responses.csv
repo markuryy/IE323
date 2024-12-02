@@ -1,0 +1,18 @@
+Age_Group,Gender,Assistive_Device,Height,Vision_Impairment,Physical_Ease_Standing,Physical_Ease_Seated,Payment_Module_Accessibility,Interface_Intuitiveness,Screen_Visibility,Error_Recovery_Options,Glare_Issue,Lighting_Effect,Space_Maneuverability,Significant_Barrier,Improvement_Suggestions
+18–29,Female,No,65,No,5,3,Yes,5,5,Yes,No,5,Yes,None,None
+18–29,Male,No,72,No,5,4,Yes,4,4,Yes,Sometimes,4,Yes,Screen height,Adjustable height
+30–49,Male,No,68,No,4,3,Yes,5,4,Yes,No,4,Yes,None,None
+18–29,Female,No,61,No,4,3,Yes,4,5,Yes,No,5,Yes,None,None
+18–29,Female,No,64,Yes,3,2,No,3,3,No,Yes,3,No,Screen angle,Better angles
+50–64,Female,Yes,62,Yes,2,1,No,3,2,No,Yes,2,No,Screen height,Adjustable height
+18–29,Non-binary/Other,No,66,Yes,4,3,Yes,5,5,Yes,No,5,Yes,None,None
+30–49,Male,Yes,70,No,3,2,No,4,4,No,Yes,3,No,Screen height,Lower height
+18–29,Female,No,67,No,5,3,Yes,5,5,Yes,No,5,Yes,None,None
+65 and older,Female,Yes,59,Yes,2,1,No,3,3,No,Yes,2,No,Screen height,Adjustable height
+30–49,Male,No,69,No,4,3,Yes,5,5,Yes,No,5,Yes,None,None
+18–29,Female,No,67,No,5,3,Yes,5,5,Yes,No,5,Yes,None,None
+50–64,Male,Yes,60,Yes,2,1,No,3,3,No,Yes,3,No,Screen height,Adjustable height
+30–49,Female,Yes,71,Yes,3,2,No,4,4,No,Yes,3,No,Screen angle,Better angles
+30–49,Male,No,62,No,4,3,Yes,5,5,Yes,No,5,Yes,None,None
+18–29,Non-binary/Other,No,68,No,5,3,Yes,5,5,Yes,No,5,Yes,None,None
+65 and older,Male,Yes,58,Yes,2,1,No,3,3,No,Yes,2,No,Screen height,Adjustable height
