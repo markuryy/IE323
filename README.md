@@ -58,7 +58,10 @@ The presentation is automatically built and deployed using GitHub Actions:
 4. Available at [https://markuryy.github.io/IE323](https://markuryy.github.io/IE323)
 
 ## License
-All rights reserved. This project and its contents are proprietary.
+
+Until the completion of the Fall 2024 semester and submission of final grades (no later than January 1st, 2025), these materials are restricted to use within the IE323 course at SUNY University at Buffalo. All analysis and materials are submitted under a limited license to the Department of Industrial and Systems Engineering (ISE) at SUNY University at Buffalo.
+
+After final grade submission for Fall 2024 semester (or January 1st, 2025, whichever comes first), this project will enter the public domain under the [Unlicense](https://unlicense.org/). See the [LICENSE](LICENSE) file for details.
 
 ## Credits
 
