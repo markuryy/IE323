@@ -24,9 +24,9 @@ style: |
   }
   .kiosk-splash {
     position: absolute;
-    right: 500px;
+    right: 175px;
     bottom: 0;
-    height: 300px;
+    height: 400px;
     z-index: 1;
   }
 ---
@@ -36,9 +36,9 @@ style: |
 # Measuring the Obvious :mag:
 #### A Human Factors Engineering Analysis of Kiosk Accessibility
 
-<span style="color:lightgrey">By:</span> <span style="font-weight:bold">Mark Ogra</span>, Aaron Elrington-Edwards, Shaaz Rizvi
-
-
+By: <span style="color:lightblue"><a href="https://markury.dev" style="text-decoration: none">Mark Ogra</a></span>
+<span style="margin-left: 1.8em; color: lightgrey">Shaaz Rizvi</span>
+<span style="margin-left: 1.8em; color: lightgrey">Aaron Elrington-Edwards</span>
 
 ---
 
@@ -271,7 +271,7 @@ Current implementation specifications:
 - Intel Core i5-4570TE processor
 - 4GB DDR3 RAM
 - 128GB SSD
-- Windows 10/11 Pro license
+- Windows 10 OEM license
 - Fixed mounting system
 
 ---
@@ -280,7 +280,7 @@ Current implementation specifications:
 
 | Component | Current | Alternative | Diff |
 |-----------|---------|-------------|------|
-| OS | Win ($15-30) | Linux | -$30 |
+| OS | OEM Windows ($15-30) | Linux | -$30 |
 | Mount | Fixed ($30) | VESA Adj. | +$30 |
 | Display | Standard | Anti-glare | +$15 |
 | **Total** | **$500** | **$530** | **+$30** |

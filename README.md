@@ -57,3 +57,17 @@ The presentation is automatically built and deployed using GitHub Actions:
 
 ## License
 All rights reserved. This project and its contents are proprietary.
+
+## Credits
+
+### Technical Implementation
+- **Research & Analysis**: [Mark Ogra](https://markury.dev)
+- **Data Collection**: Original measurements and survey design
+- **Visualization**: All graphics and data visualization
+- **Documentation**: Technical writing and presentation
+- **Development**: Repository setup and deployment
+
+### Repository Activity
+[![Contribution graph](https://ghchart.rshah.org/markuryy)](https://github.com/markuryy)
+
+*This project uses the [Marp](https://marp.app/) presentation framework with custom styling and GitHub Pages deployment.*
