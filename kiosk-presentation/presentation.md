@@ -69,6 +69,28 @@ By: <span style="color:lightblue"><a href="https://markury.dev" style="text-deco
 
 ---
 
+<div style="text-align: center;">
+
+# Follow Along! 📱
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 2em;">
+<div>
+<img src="assets/qr-code.png" alt="QR Code" style="width: 400px; height: 400px; padding: 1em">
+</div>
+<div style="text-align: left;">
+
+### [markuryy.github.io/IE323](https://markuryy.github.io/IE323/)
+- View slides in real-time
+- Access all code and resources
+- Available on GitHub
+
+</div>
+</div>
+
+</div>
+
+---
+
 ### Introduction
 
 #### Human Factors Foundation
