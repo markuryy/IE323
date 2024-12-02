@@ -29,9 +29,6 @@ style: |
     height: 300px;
     z-index: 1;
   }
-  .references {
-    font-size: 0.6em;
-  }
 ---
 
 <img src="./images/kiosk-splash.png" class="kiosk-splash">
@@ -53,6 +50,34 @@ style: |
    - Touch target difficulty ∝ distance/size ratio
    - 172cm height + small UI = computational nightmare
    - Fixed angle compounds motor planning issues
+
+---
+
+### Mathematical Validation
+
+#### Fitts' Law Application
+$$
+ID = log_2(\frac{2D}{W})
+$$
+
+where:
+- D = effective distance (cm)
+- W = target width (cm)
+
+![bg right:40% w:90%](images/significant_barriers.png)
+
+---
+
+#### Kiosk Configuration Analysis
+
+$$
+D_{effective} = \sqrt{172^2 + reach^2} * \cos(\theta)
+$$
+
+**Comparative Results:**
+- Standing (50cm reach): ID = 8.48 bits
+- Seated (70cm reach): ID = 8.54 bits
+- *Additional cognitive load from non-optimal viewing angle*
 
 ---
 
@@ -267,6 +292,42 @@ Current implementation specifications:
 
 ---
 
+### Methodological Critique
+
+#### The Theater of Validation
+- Recruits marginalized users to prove obvious barriers
+- Generates data justifying inadequate solutions
+- Places burden of proof on affected populations
+
+![bg right:40% w:90%](images/assistive_device_usage.png)
+
+---
+### Cost-Benefit Analysis
+
+<div class="columns">
+<div>
+
+#### Current Costs
+| Component | Cost |
+|-----------|------|
+| Windows License | $15-30 |
+| Fixed Mount | $30 |
+| Standard Display | Base |
+| **Per Unit** | **~$500** |
+
+</div>
+<div>
+
+#### Business Impact
+- High proportion of sample used assistive devices
+- Increased service time
+- Staff intervention needed
+- Lost revenue from abandonment
+
+</div>
+</div>
+
+---
 ### Recommendations
 
 <div class="columns">
@@ -292,6 +353,9 @@ Current implementation specifications:
 
 ---
 ### References
+<style scoped>
+section { font-size: 2.1em; }
+</style>
 
 1. Department of Justice. (2010). *2010 ADA Standards for Accessible Design*. §308.2.1-309.4.
 
@@ -302,3 +366,28 @@ Current implementation specifications:
 4. u/tamay-idk. (2023). *Specs of a McDonald's kiosk in more detail* [Online forum post]. Reddit. Hardware specifications independently verified through system inspection.
 
 5. Swanson, J., & Calvillo-Gámez, E. H. (2020). Evaluation of touch screen kiosks for enhanced accessibility in public spaces. *International Journal of Human-Computer Studies*, 143, 102501.
+
+---
+
+# Questions? :thinking:
+
+<div class="columns">
+<div>
+
+#### Some Starters
+- "What inspired you to focus on kiosks?"
+- "How did businesses respond to your findings?"
+- "Did you encounter any unexpected results?"
+
+</div>
+<div>
+
+#### Going Deeper
+- "Could this apply to other interfaces?"
+- "What's the most cost-effective fix?"
+- "How do weather conditions affect usage?"
+
+</div>
+</div>
+
+*Feel free to ask anything else!* :raised_hands:
