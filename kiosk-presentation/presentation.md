@@ -16,6 +16,28 @@ style: |
   td, th {
     padding: 0.1em 0.2em;
   }
+  .github-link {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 8px 16px;
+    border-radius: 9999px;
+    text-decoration: none;
+    color: currentColor;
+    font-size: 0.5em;
+    transition: background 0.2s ease;
+  }
+  .github-link:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  .github-link svg {
+    width: 24px;
+    height: 24px;
+  }
   section {
     background-image: url('./images/logo.png');
     background-position: bottom 15px right 15px;
@@ -35,6 +57,11 @@ style: |
 
 # Measuring the Obvious :mag:
 #### A Human Factors Engineering Analysis of Kiosk Accessibility
+
+<a href="https://github.com/markuryy/IE323" target="_blank" class="github-link">
+<svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-github"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" /></svg>
+  GitHub
+</a>
 
 By: <span style="color:lightblue"><a href="https://markury.dev" style="text-decoration: none">Mark Ogra</a></span>
 <span style="margin-left: 1.8em; color: lightgrey">Shaaz Rizvi</span>
