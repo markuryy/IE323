@@ -75,7 +75,7 @@ By: <span style="color:lightblue"><a href="https://markury.dev" target="_blank" 
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 2em;">
 <div>
-<img src="assets/qr-code.png" alt="QR Code" style="width: 400px; height: 400px; padding: 1em">
+<img src="assets/qr-code-transparent.png" alt="QR Code" style="width: 400px; height: 400px; padding: 1em">
 </div>
 <div style="text-align: left;">
 
