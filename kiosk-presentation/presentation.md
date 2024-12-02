@@ -63,7 +63,7 @@ style: |
   GitHub
 </a>
 
-By: <span style="color:lightblue"><a href="https://markury.dev" style="text-decoration: none">Mark Ogra</a></span>
+By: <span style="color:lightblue"><a href="https://markury.dev" target="_blank" rel="noopener noreferrer" style="text-decoration: none">Mark Ogra</a></span>
 <span style="margin-left: 1.8em; color: lightgrey">Shaaz Rizvi</span>
 <span style="margin-left: 1.8em; color: lightgrey">Aaron Elrington-Edwards</span>
 

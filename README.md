@@ -3,6 +3,8 @@
 ## Kiosk Accessibility Presentation
 📊 [View the Presentation](https://markuryy.github.io/IE323)
 
+<a href="https://markuryy.github.io/IE323" target="_blank" rel="noopener noreferrer"><img src="kiosk-presentation/assets/thumbnail.png" alt="Thumbnail" /></a>
+
 A comprehensive analysis of kiosk accessibility in public spaces, examining physical design, cognitive load, and user interaction patterns through the lens of Human Factors Engineering principles.
 
 ### Key Topics
