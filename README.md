@@ -67,7 +67,4 @@ All rights reserved. This project and its contents are proprietary.
 - **Documentation**: Technical writing and presentation
 - **Development**: Repository setup and deployment
 
-### Repository Activity
-[![Contribution graph](https://ghchart.rshah.org/markuryy)](https://github.com/markuryy)
-
 *This project uses the [Marp](https://marp.app/) presentation framework with custom styling and GitHub Pages deployment.*
