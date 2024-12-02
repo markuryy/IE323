@@ -39,7 +39,7 @@ style: |
     height: 24px;
   }
   section {
-    background-image: url('./images/logo.png');
+    background-image: url('./assets/logo.png');
     background-position: bottom 15px right 15px;
     background-repeat: no-repeat;
     background-size: 60px auto;
@@ -53,7 +53,7 @@ style: |
   }
 ---
 
-<img src="./images/kiosk-splash.png" class="kiosk-splash">
+<img src="./assets/kiosk-splash.png" class="kiosk-splash">
 
 # Measuring the Obvious :mag:
 #### A Human Factors Engineering Analysis of Kiosk Accessibility
@@ -117,7 +117,7 @@ By: <span style="color:lightblue"><a href="https://markury.dev" style="text-deco
 ---
 
 ### Problem Space Overview
-![height:12cm](images/mindmap.png)
+![height:12cm](assets/mindmap.png)
 *Interconnected barriers require systematic analysis*
 
 ---
