@@ -1,10 +1,11 @@
-# Measuring the Obvious: A Critical Framework for Kiosk Accessibility Evaluation
+# Accessibility Evaluation of Public Touchscreen Kiosks
+### IE 323: Human Factors in System Design
 
 By Mark Ogra, Shaaz Rizvi, and Aaron Elrington-Edwards
 
 ## Abstract
 
-This study presents a novel approach to evaluating the accessibility of public touchscreen kiosks, specifically focusing on McDonald's self-service ordering systems. Rather than following traditional user-testing methodologies, we propose and implement a measurement-based evaluation framework that combines empirical physical measurements, specification analysis, and targeted survey data. This approach not only identifies fundamental design issues but also challenges conventional accessibility evaluation methods that may inadvertently perpetuate exclusionary practices.
+This project details our approach to evaluating the accessibility of public touchscreen kiosks, specifically focusing on McDonald's self-service ordering systems. Given the feasibility of traditional user-testing methodologies, we propose and implement a measurement-based evaluation framework that combines empirical physical measurements, specification analysis, and targeted survey data. This approach not only identifies fundamental design issues but also challenges conventional accessibility evaluation methods that may inadvertently perpetuate exclusionary practices.
 
 ## Table of Contents
 
@@ -30,7 +31,7 @@ This project introduces a measurement-based framework for evaluating kiosk acces
 
 ## Methodology
 
-Our project focused on McDonald's self-service ordering kiosks due to their widespread deployment and diverse user base. After an initial attempt at traditional user testing revealed ethical concerns, we pivoted to a measurement-based evaluation approach that wouldn't require marginalized users to demonstrate obvious accessibility issues.
+Our project focused on McDonald's self-service ordering kiosks due to their ubiquity and diverse user base. After an initial attempt at traditional user testing revealed ethical concerns, we pivoted to a measurement-based evaluation approach that wouldn't require marginalized users to demonstrate obvious accessibility issues.
 
 ### Equipment and Tools
 
@@ -52,15 +53,57 @@ Our data collection followed these steps:
 6. Data analysis and correlation studies
 
 #### Physical Measurements
-We developed a standardized form to ensure consistent data collection across locations:
 
-Table 1: Physical Measurement Protocol
-| Measurement | Method | Units |
-|-------------|---------|--------|
-| Screen height from floor | Measuring tape to screen center | Centimeters |
-| Screen size | Diagonal measurement | Inches |
-| Screen angle | Digital level relative to vertical | Degrees |
-| Payment module height | Measuring tape to module center | Centimeters |
+Physical characteristic measurements included:
+- Overall kiosk height (to screen center)
+- Screen size (diagonal)
+- Screen angle relative to vertical
+- Height of payment module
+
+Documentation of the interface included:
+- Menu hierarchy (number of steps to complete basic order)
+- UI element sizes
+- Available language options
+- Help/assistance features
+- Payment options
+
+To ensure consistent observations, our standard ordering sequence consisted of the following steps:
+1. Basic menu item selection
+2. Item customization process
+3. Add-on/upsell prompts
+4. Cart review capabilities
+5. Payment process steps
+6. Order confirmation display
+
+
+Table 1: Basic Physical Measurements Form
+<table border="1" style="border-collapse: collapse; width: 100%; table-layout: fixed;">
+  <tr>
+    <th style="width: 30%; text-align: left; padding: 8px;">Kiosk Details</th>
+    <th style="width: 35%; text-align: left; padding: 8px;">Physical Measurements</th>
+    <th style="width: 35%; text-align: left; padding: 8px;">Interface Review</th>
+  </tr>
+  <tr>
+    <td style="padding: 8px; vertical-align: top;">
+      <div><b>Kiosk Location:</b> <span style="display: inline-block; width: 100%; height: 20px; border-bottom: 1px solid black;"></span></div>
+      <div style="margin-top: 10px;"><b>Date:</b> <span style="display: inline-block; width: 100%; height: 20px; border-bottom: 1px solid black;"></span></div>
+      <div style="margin-top: 10px;"><b>Start time:</b> <span style="display: inline-block; width: 100%; height: 20px; border-bottom: 1px solid black;"></span></div>
+    </td>
+    <td style="padding: 8px; vertical-align: top;">
+      <div>Screen height from floor: <span style="display: inline-block; width: 100%; height: 20px; border-bottom: 1px solid black;"></span></div>
+      <div style="margin-top: 10px;">Screen size (diagonal): <span style="display: inline-block; width: 100%; height: 20px; border-bottom: 1px solid black;"></span></div>
+      <div style="margin-top: 10px;">Screen angle from vertical: <span style="display: inline-block; width: 100%; height: 20px; border-bottom: 1px solid black;"></span></div>
+      <div style="margin-top: 10px;">Height of payment terminal: <span style="display: inline-block; width: 100%; height: 20px; border-bottom: 1px solid black;"></span></div>
+    </td>
+    <td style="padding: 8px; vertical-align: top;">
+      <div>Navigation buttons (T/F): <span style="display: inline-block; width: 100%; height: 20px; border-bottom: 1px solid black;"></span></div>
+      <div style="margin-top: 10px;">Steps to add basic item: <span style="display: inline-block; width: 100%; height: 20px; border-bottom: 1px solid black;"></span></div>
+      <div style="margin-top: 10px;">Steps to customize item: <span style="display: inline-block; width: 100%; height: 20px; border-bottom: 1px solid black;"></span></div>
+      <div style="margin-top: 10px;">Steps to complete payment: <span style="display: inline-block; width: 100%; height: 20px; border-bottom: 1px solid black;"></span></div>
+      <div style="margin-top: 10px;">Error recovery options: <span style="display: inline-block; width: 100%; height: 20px; border-bottom: 1px solid black;"></span></div>
+    </td>
+  </tr>
+</table>
 
 #### Survey Implementation
 
@@ -114,7 +157,7 @@ Our analysis revealed significant accessibility challenges across physical desig
 
 ### Demographic Analysis
 
-Our survey captured a broad range of participant demographics. As shown in Figure 1, the age distribution skewed younger with 47.1% aged 18-29, while still maintaining significant representation from older age groups (29.4% aged 30-49, 23.6% aged 50 and above). Figure 2 demonstrates a balanced gender distribution across our participants, with 47.1% female, 41.2% male, and 11.8% non-binary/other respondents. Most notably, as illustrated in Figure 3, 35.3% of respondents reported using assistive devices, providing robust data on accessibility challenges across different user groups.
+Our survey captured a fair range of participant demographics given the small sample size. As shown in Figure 1, the age distribution skewed younger with 47.1% aged 18-29, while still maintaining significant representation from older age groups (29.4% aged 30-49, 23.6% aged 50 and above). Figure 2 demonstrates a balanced gender distribution across our participants, with 47.1% female, 41.2% male, and 11.8% non-binary/other respondents. Most notably, as illustrated in Figure 3, 35.3% of respondents reported using assistive devices, providing robust data on accessibility challenges across different user groups.
 
 <div style="display: flex; justify-content: space-between; margin-bottom: 20px;">
   <div style="flex: 1; margin-right: 10px;">
@@ -226,7 +269,7 @@ These accessibility barriers create significant operational inefficiencies. With
 
 ### Key Findings and Their Significance
 
-Our mathematical analysis using Fitts' Law quantifies what users have been reporting: the current kiosk design creates significant physical and cognitive barriers. The calculated Index of Difficulty (ID) difference between seated (8.54 bits) and standing (8.48 bits) users may appear small, but this compounds with each interaction in a typical ordering session requiring 4-8 touches. When combined with the non-optimal viewing angles we measured, this creates a substantially higher cognitive load for users with mobility devices.
+Our mathematical analysis using the ISO equation adapted from Fitts' Law quantifies what users have been reporting: the current kiosk design creates significant physical and cognitive barriers. The calculated Index of Difficulty (ID) difference between seated (8.54 bits) and standing (8.48 bits) users may appear small, but this compounds with each interaction in a typical ordering session requiring 4-8 touches. When combined with the non-optimal viewing angles we measured, this creates a substantially higher cognitive load for users with mobility devices.
 
 The physical measurements revealed systematic ADA violations that directly correlate with our user experience data. The 50.1cm excess in mounting height doesn't just violate technical standards - it translates to the dramatic drop in seated accessibility scores (from 3.0 to 1.3/5) reported by users. Similarly, the 34.2% of locations failing to meet minimum clear space requirements explains the clustering of mobility device users in the lower range of our interface intuitiveness scores.
 
@@ -474,3 +517,4 @@ Age_Group,Gender,Assistive_Device,Height,Vision_Impairment,Physical_Ease_Standin
 30–49,Male,No,62,No,4,3,Yes,5,5,Yes,No,5,Yes,None,None
 18–29,Non-binary/Other,No,68,No,5,3,Yes,5,5,Yes,No,5,Yes,None,None
 65 and older,Male,Yes,58,Yes,2,1,No,3,3,No,Yes,2,No,Screen height,Adjustable height
+```
